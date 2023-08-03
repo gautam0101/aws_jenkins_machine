@@ -15,7 +15,7 @@ pipeline {
                  script{
                         dir("terraform")
                         {
-                            git credentialsId: 'MadgicalGithub' , url: 'git@github.com:madgicaltechdom/rezo-infrastructure-aws.git'
+                            git "https://github.com/gautam0101/aws_jenkins_machine.git"
                         }
                     }
                 }
